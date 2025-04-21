@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+.menu{
+    background-color:  #766a86;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu_conteudo{
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.menu_link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.menu_link:hover{
+    color: rgb(82, 190, 154);
+}
+.info{
+    background: rgb(72,98,136);
+    background: linear-gradient(90deg, rgba(72,98,136,0.85) 44%, rgba(152,50,108,0.8) 100%), url(pexels-fotios-photos-16129703.jpg);
+    background-size: cover;
+    background-position: center;
+    height:  260px;
+    color: #ffffff;
+    padding-top: 64px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.conteudo{
+    background-color: #f2f8f6;
+    padding: 16px;
+}
+.conteudo > div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape{
+    background-color: #c4d2df;
+    padding: 16px;
+}
+.rodape_conteudo{
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+.img{
+    border-radius: 50%;
+    border: 3px #abaeda solid;
+    object-fit: cover;
+}
+.imgs{
+    display: flex;
+    gap: 150px;
+    padding-bottom: 50px;
+}
+.nome{
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+.titulo{
+    font-size: 27px;
+    color: #6f3298;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.texto{
+    line-height: 1.5;
+    font-family: "Poppins", sans-serif;
+    text-align: justify;
+    color: #3e3e3e;
+    font-size: 17px;
+}
+.galeria{
+    border: 3px #6f3298 solid;
+    border-radius: 4px;
+}
+.galeria:hover{
+    border: 3px #67b993 solid;
+    transform: scale(1.1);
+    transition: 400ms;
+}
+.social_media > a{
+    padding: 10px;
+}
